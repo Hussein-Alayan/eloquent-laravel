@@ -1,0 +1,18 @@
+<?php
+
+namespace App\Http\Controllers;
+use App\Models\Agent;
+use Illuminate\Http\Request;
+
+class AgentController extends Controller
+{
+    public function showAll()
+
+    $agents = Agent:all();
+
+    foreach (Flight::all() as $flight) {
+    echo $flight->name;
+}
+
+
+}
